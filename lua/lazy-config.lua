@@ -34,6 +34,7 @@ require("lazy").setup({
 		{ import = "plugins.lint" },
 		{ import = "plugins.debug" },
 		{ import = "plugins.toggleterm" },
+		{ import = "lsp-servers.typescript-tools" },
 	},
 	--  install = { colorscheme = { "tokyonight", "habamax" } },
 	--  checker = { enabled = true },
