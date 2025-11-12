@@ -1,6 +1,6 @@
 -- Leader key
-vim.g.mapleader = ' '
-vim.g.maplocalleader = ' '
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
 
 --Nerd fonts
 vim.g.have_nerd_font = true
@@ -12,7 +12,7 @@ vim.o.number = true
 vim.o.relativenumber = true
 
 -- Mouse mode
-vim.o.mouse = 'a'
+vim.o.mouse = "a"
 
 -- Save undo history
 vim.o.undofile = true
@@ -25,7 +25,7 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 
 -- Keep signcolumn on by default
-vim.o.signcolumn = 'yes'
+vim.o.signcolumn = "yes"
 
 -- Decrease update time
 vim.o.updatetime = 250
@@ -46,7 +46,7 @@ vim.o.splitbelow = true
 --   See `:help lua-options`
 --   and `:help lua-options-guide`
 vim.o.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 
 -- Tab configuration
 vim.opt.shiftwidth = 2
@@ -55,7 +55,7 @@ vim.opt.expandtab = true
 vim.opt.smarttab = true
 
 -- Preview substitutions live, as you type!
-vim.o.inccommand = 'split'
+vim.o.inccommand = "split"
 
 -- Show which line your cursor is on
 vim.o.cursorline = true
@@ -67,3 +67,7 @@ vim.o.scrolloff = 10
 -- instead raise a dialog asking if you wish to save the current file(s)
 -- See `:help 'confirm'`
 vim.o.confirm = true
+
+vim.opt.autoread = true
+
+vim.opt.termguicolors = true

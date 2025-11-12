@@ -21,6 +21,8 @@ return {
 				autopep8 = { enabled = false },
 				yapf = { enabled = false },
 				black = { enabled = false },
+
+				rope_autoimport = { enabled = true },
 			},
 		},
 	},
